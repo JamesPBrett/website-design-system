@@ -11,22 +11,136 @@
 <body>
 
   <header>
-    <h1>Website Design System</h1>
+    <nav>
+      <ul>
+        <li><a href="#colours">Colours</a></li>
+        <li><a href="#brand-fonts">Fonts</a></li>
+        <li><a href="#text">Text</a></li>
+      </ul>
+    </nav>
   </header>
+
   <main>
+    <section class="intro">
+      <h1>Website Style Guide</h1>
+      <p>A style guide documents the various elements and patterns of a website or application. The style guide
+       contains all the visual styles of the site such as headers, links, buttons, color pallets and any visual
+       language that is used on the site in one location, which aids communication and ensures brand consistency during
+       development.</p>
+    </section>
 
-    <section>
+    <hr>
+
+    <section id="colours">
       <h2>Colours</h2>
+      <div class="swatches">
+        <div class="swatch color-1">
+          <p class="name">Imperial Red</p>
+          <p class="colour-code">hex: e63946</p>
+          <p class="colour-code">rgb: 230,57,70</p>
+          <p class="colour-code">hsl: 355,78,56</p>
+        </div>
+        <div class="swatch color-2">
+          <p class="name">Honeydew</p>
+          <p class="colour-code">hex: f1faee</p>
+          <p class="colour-code">rgb: 241,250,238</p>
+          <p class="colour-code">hsl: 105,55,96</p>
+        </div>
+        <div class="swatch color-3">
+          <p class="name">Powder Blue</p>
+          <p class="colour-code">hex: a8dadc</p>
+          <p class="colour-code">rgb: 168,218,220</p>
+          <p class="colour-code">hsl: 182,43,76</p>
+        </div>
+        <div class="swatch color-4">
+          <p class="name">Celadon Blue</p>
+          <p class="colour-code">hex: 457b9d</p>
+          <p class="colour-code">rgb: 69,123,157</p>
+          <p class="colour-code">hsl: 203,39,44</p>
+        </div>
+        <div class="swatch color-5">
+          <p class="name">Prussian Blue</p>
+          <p class="colour-code">hex: 1d3557</p>
+          <p class="colour-code">rgb: 29,53,87</p>
+          <p class="colour-code">hsl: 215,50,23</p>
+        </div>
+      </div>
     </section>
 
-    <section>
+    <hr>
+
+    <section id="brand-fonts">
       <h2>Fonts</h2>
+      <div class="font-container">
+        <div class="font-row worksans">
+          <h4 class="family-name worksans">Work Sans</h4>
+          <div class="col">
+            <h1 class="font-preview-character worksans">Aa</h1>
+          </div>
+          <div class="col">
+            <p class="font-preview worksans">
+              1234567890(,.;:?!$&amp;*)
+              <br>
+              ABCDEFGHIJKLMNOPQRSTUVWXYZ
+              <br>
+              abcdefghijklmnopqrstuvwxyz</p>
+          </div>
+          <div class="col">
+            <p class="font-name worksans">Work Sans</p>
+            <p class="font-weight worksans">800</p>
+            <p class="font-style worksans">normal</p>
+          </div>
+        </div>
+        <div class="font-row merriweather">
+          <h4 class="family-name merriweather">Merriweather</h4>
+          <div class="col">
+            <h1 class="font-preview-character merriweather">Aa</h1>
+          </div>
+          <div class="col">
+            <p class="font-preview merriweather">
+              1234567890(,.;:?!$&amp;*)
+              <br>
+              ABCDEFGHIJKLMNOPQRSTUVWXYZ
+              <br>
+              abcdefghijklmnopqrstuvwxyz</p>
+          </div>
+          <div class="col">
+            <p class="font-name merriweather">Merriweather</p>
+            <p class="font-weight merriweather">300</p>
+            <p class="font-style merriweather">normal</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section>
+    <hr>
+
+    <section id="text">
       <h2>Text Styles</h2>
+      <p>Titles should always use the Work Sans font and Merriweather as the Body Text.</p>
+        <h1>Heading 1 (h1) - 42px</h1>
+      <br>
+        <h2>Heading 2 (h2) - 36px</h2>
+      <br>
+        <h3>Heading 3 (h2) - 30px</h3>
+      <br>
+        <h4>Heading 4 (h4) - 24px</h4>
+      <br>
+      <p>Body Text (p) - 16px</p>
+      <br>
+      <div class="example">
+        <h4>Example:</h4>
+        <br>
+          <h2>Main section title</h2>
+          <h4>Sub-section title</h4>
+          <p>Paragraph</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+             mollit anim id est laborum.</p>
+        </div>
     </section>
-
   </main>
 </body>
 
